@@ -1,0 +1,43 @@
+<div class="image">
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card card-body">
+          <img width="180" alt="Logo" src="http://piton.com.tr/assets/img/basic/logo-nav.png" class="mx-auto">
+          <form (submit)="submitLocation(cityName, cityCode)">
+            <input type="text" name="cityName" placeholder="Şehir Adını Girin" class="form-control" autofocus #cityName>
+            <input type="text" name="countryCode" placeholder="Ülke Kodunu Girin" class="form-control" #cityCode>
+            <button name="button" class="btn btn-primary btn-block mt-2">
+              Hava Durumunu Göster
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div *ngIf="weather" class="card card-body text-center">
+          <h1 class="h4">Hava Durumu</h1>
+          <p> <b>Şehir:</b>
+            {{weather.name}}
+          </p>
+          <p> <b>Enlem:</b> {{weather.coord.lat}}</p>
+          <p> <b>Boylam:</b> {{weather.coord.lon}}</p>
+          <p> <b>Nem:</b> {{weather.main.humidity}}</p>
+          <p> <b>Basınç:</b> {{weather.main.pressure}}</p>
+          <p> <b>Sıcaklık:</b> {{weather.main.temp}} °C</p>
+          <p> <b>Açıklama:</b> {{weather.weather[0].description }}</p>
+
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<nav class="navbar fixed-bottom navbar-light" style="background-color: #d6e0e7;">
+  <span class="navbar-text mr-auto">
+    <strong>OĞUZ CAN ERTEN 2019</strong>
+  </span>
+  <span class="navbar-text navbar-nav my-2 my-lg-0">
+    <strong>PİTON AR-GE</strong>
+
+  </span>

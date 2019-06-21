@@ -1,0 +1,7 @@
+    .image {
+      height: 45em;
+      background-size: cover;
+      width: auto;
+      background-image: url('https://media.giphy.com/media/t7Qb8655Z1VfBGr5XB/giphy.gif');
+      background-position: 50% 50%;
+    }

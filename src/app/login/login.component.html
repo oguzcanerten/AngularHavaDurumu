@@ -1,0 +1,28 @@
+<div class="image" style="margin-top: 0em">
+  <div class="col-md-4 offset-4 card card-primary p-3 border"
+    style="position: relative ; top:40px ;left: 40px;right: 40px;  ">
+    <div class="col-md-6" style="padding: 10px">
+      <h1> Giris Ekranı </h1>
+      <form>
+        <div class="form-group">
+          <label for="email">E-posta Adresiniz</label>
+          <input type="email" class="form-control" id="email" name="email" [(ngModel)]="email">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Şifreniz</label>
+          <input type="password" class="form-control" id="pwd" name="passowrd" [(ngModel)]="password">
+        </div>
+        <button name="button" class="btn btn-success" (click)="login()">Giris Yap</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar fixed-bottom navbar-light" style="background-color: #5dc6ce;">
+  <span class="navbar-text mr-auto">
+    <strong> OĞUZ CAN ERTEN 2019</strong>
+  </span>
+  <span class="navbar-text navbar-nav my-2 my-lg-0">
+    <strong>PİTON AR-GE</strong>
+
+  </span>
