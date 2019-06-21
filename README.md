@@ -1,7 +1,9 @@
 
+Screenshots 
+
 ![login](https://i.ibb.co/zNKRDDT/login.png)
-![login](https://i.ibb.co/zNKRDDT/login.png)
-![login](https://i.ibb.co/zNKRDDT/login.png)
+![weather](https://i.ibb.co/kxVb4ZM/weather.png)
+![testlog](https://i.ibb.co/XLFXSfW/testlog.png)
 
 
 
