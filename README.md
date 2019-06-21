@@ -1,6 +1,8 @@
-![login](src\screenshots\login.PNG)
-![weather](src\screenshots\testlog.PNG)
-![testlog](src\screenshots\weather.PNG)
+
+![login](https://ibb.co/stLwzzd)
+![login](https://ibb.co/stLwzzd)
+![login](https://ibb.co/stLwzzd)
+
 
 
 
